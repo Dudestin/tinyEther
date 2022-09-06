@@ -1,0 +1,49 @@
+set_pin_assignment	{ CLK_IN }	{ LOCATION = K14; }
+set_pin_assignment	{ PHY_CRS_DV[0] }	{ LOCATION = N3; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_CRS_DV[1] }	{ LOCATION = D5; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_CRS_DV[2] }	{ LOCATION = A14; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_CRS_DV[3] }	{ LOCATION = C10; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_MDC }	{ LOCATION = T6; IOSTANDARD = LVTTL33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ PHY_MDIO }	{ LOCATION = R7; IOSTANDARD = LVTTL33; INDEL = 15;}
+set_pin_assignment	{ PHY_REF_CLK[0] }	{ LOCATION = T7; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_REF_CLK[1] }	{ LOCATION = C9; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_REF_CLK[2] }	{ LOCATION = B10; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_REF_CLK[3] }	{ LOCATION = C11; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_RST[0] }	{ LOCATION = N5; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_RST[1] }	{ LOCATION = A5; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_RST[2] }	{ LOCATION = C7; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_RST[3] }	{ LOCATION = B6; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_RXD0[0] }	{ LOCATION = P8; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD0[1] }	{ LOCATION = A8; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD0[2] }	{ LOCATION = C6; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD0[3] }	{ LOCATION = C16; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD1[0] }	{ LOCATION = R5; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD1[1] }	{ LOCATION = A6; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD1[2] }	{ LOCATION = C5; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_RXD1[3] }	{ LOCATION = A11; IOSTANDARD = LVTTL33; INDEL = 15; }
+set_pin_assignment	{ PHY_TXD0[0] }	{ LOCATION = N4; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD0[1] }	{ LOCATION = A3; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD0[2] }	{ LOCATION = A7; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD0[3] }	{ LOCATION = E16; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD1[0] }	{ LOCATION = P4; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD1[1] }	{ LOCATION = D6; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD1[2] }	{ LOCATION = B14; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXD1[3] }	{ LOCATION = B12; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXEN[0] }	{ LOCATION = M4; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXEN[1] }	{ LOCATION = A4; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXEN[2] }	{ LOCATION = B8; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY_TXEN[3] }	{ LOCATION = F16; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ RGB_LED[0] }	{ LOCATION = R3; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ RGB_LED[1] }	{ LOCATION = J14; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ RGB_LED[2] }	{ LOCATION = P13; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ soc_uart_rx }	{ LOCATION = R15; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ soc_uart_tx }	{ LOCATION = T15; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ usr_btn }	{ LOCATION = K16; IOSTANDARD = LVTTL33; }
+
+# Tang PriMER general interface
+
+# RMII
+
+
+# SoC Interface
+

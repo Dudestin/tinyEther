@@ -1,0 +1,35 @@
+set_pin_assignment	{ PHY0_REF_CLK }	{ LOCATION = B10; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment  { PHY0_CRS_DV}  { LOCATION = A14; IOSTANDARD = LVTTL33; PULLTYPE = NONE;}
+set_pin_assignment	{ PHY0_RXD0 }	{ LOCATION = C6; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment	{ PHY0_RXD1 }	{ LOCATION = C5; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment	{ PHY0_TXD0 }	{ LOCATION = A7; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY0_TXD1 }	{ LOCATION = B14; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY0_TXEN }	{ LOCATION = B8; IOSTANDARD = LVTTL33; }
+#set_pin_assignment	{ PHY1_REF_CLK }	{ LOCATION = F9; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment	{ PHY1_REF_CLK }	{ LOCATION = C11; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment  { PHY1_CRS_DV}  { LOCATION = C10; IOSTANDARD = LVTTL33; PULLTYPE = NONE;}
+set_pin_assignment	{ PHY1_RXD0 }	{ LOCATION = C16; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment	{ PHY1_RXD1 }	{ LOCATION = A11; IOSTANDARD = LVTTL33; PULLTYPE = NONE; }
+set_pin_assignment	{ PHY1_TXD0 }	{ LOCATION = E16; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY1_TXD1 }	{ LOCATION = B12; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY1_TXEN }	{ LOCATION = F16; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY0_RST_N }	{ LOCATION = N5; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY1_RST_N }	{ LOCATION = A5; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY2_RST_N }	{ LOCATION = C7; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ PHY3_RST_N }	{ LOCATION = B6; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ RGB_LED[0] }	{ LOCATION = R3; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ RGB_LED[1] }	{ LOCATION = J14; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ RGB_LED[2] }	{ LOCATION = P13; IOSTANDARD = LVTTL33; }
+set_pin_assignment	{ arst_n }	{ LOCATION = K16; IOSTANDARD = LVTTL33; }
+
+
+
+## RGB LEDs, 3 pins
+
+## PHY0
+
+## PHY1
+
+## PHY2
+
+## PHY3

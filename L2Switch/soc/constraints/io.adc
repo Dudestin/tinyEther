@@ -1,0 +1,15 @@
+set_pin_assignment {CLK_IN} { LOCATION = K14; }		##24MHZ
+# set_pin_assignment {arst_n} { LOCATION = K16; }		##USER_KEY
+
+## RGB LEDs, 3 pins
+#set_pin_assignment {led1} { LOCATION = R3;  }	##LED_R, R3
+#set_pin_assignment {led2} { LOCATION = J14;  }	##LED_G, J14
+#set_pin_assignment {led3} { LOCATION = P13;  }	##LED_B, P13
+
+#set_pin_assignment {ser_tx} { LOCATION = A4; }		## UART TX
+#set_pin_assignment {ser_rx} { LOCATION = A3; }		## UART #RX
+
+#set_pin_assignment {flash_csb} { LOCATION = N14; }		## SD-CARD CSB
+#set_pin_assignment {flash_clk} { LOCATION = M9; }		## SD-CARD CLK
+#set_pin_assignment {flash_io0} { LOCATION = F13; }		## SD-CARD MISO
+#set_pin_assignment {flash_io1} { LOCATION = H14; }		## SD-CARD MOSI
