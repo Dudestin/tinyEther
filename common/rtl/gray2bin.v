@@ -13,29 +13,29 @@
 //============================================================================//
 
 module my_gray2bin #(
-      //=============
-      // Parameters
-      //=============
-      parameter WIDTH = 32
-   ) (
-      //============
-      // I/O Ports
-      //============
-      input  [WIDTH-1:0] din,
-      output [WIDTH-1:0] dout
-   );
-   
-   // gen vars
-   genvar i;
+           //=============
+           // Parameters
+           //=============
+           parameter WIDTH = 32
+       ) (
+           //============
+           // I/O Ports
+           //============
+           input  [WIDTH-1:0] din,
+           output [WIDTH-1:0] dout
+       );
 
-   //=====================
-   // Generate: gray2bin
-   //=====================
-   generate 
-      for (i=0; i<WIDTH; i=i+1)
-      begin : gen_for
-         assign dout[i] = ^ din[WIDTH-1:i];
-      end
-   endgenerate
+// gen vars
+genvar i;
 
-endmodule
+//=====================
+// Generate: gray2bin
+//=====================
+generate
+    for (i=0; i<WIDTH; i=i+1)
+    begin : gen_for
+        assign dout[i] = ^ din[WIDTH-1:i];
+    end
+    endgenerate
+
+        endmodule
