@@ -5,5 +5,9 @@
 - Anlogic Tang Dynasty Ver. 4.4.433
 - riscv32-unknown-elf-gcc (g5964b5cd727) 11.1.0
 
+## tinyFastEtherDeveloper
+10cm四方の小型Ethernet実験ボード. 
+Tang PriMERと併せてご利用ください.
+
 ## 質問等
 不明点等ありましたら，お気軽にIssueをください。

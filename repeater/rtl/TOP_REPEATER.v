@@ -1,6 +1,3 @@
-// PHY0 Loopback Test
-// PHY0 RX -> PHY0 TX
-
 module TOP_RMII_repeater(
            input  wire arst_n,
            output wire [2:0] RGB_LED,
