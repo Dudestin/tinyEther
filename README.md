@@ -9,5 +9,19 @@
 10cm四方の小型Ethernet実験ボード. 
 Tang PriMERと併せてご利用ください.
 
+### 電源ユニット
+
+DC5V, 最大2A出力可能のものをご利用ください。  
+下記のものなどをご利用になれます。
+
+- https://akizukidenshi.com/catalog/g/gM-11996/
+- https://akizukidenshi.com/catalog/g/gM-01801/
+- https://akizukidenshi.com/catalog/g/gM-08311/
+
+### PHY (RTL8201F)の詳細情報
+
+以下のリンクからデータシートを参照できます.  
+https://www.verical.com/datasheet/realtek-semiconductor-phy-rtl8201f-vb-cg-2635458.pdf
+
 ## 質問等
 不明点等ありましたら，お気軽にIssueをください。
