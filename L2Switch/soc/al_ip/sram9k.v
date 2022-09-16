@@ -40,7 +40,7 @@ module sram9k ( doa, dia, addra, clka, wea, rsta );
 				.IMPLEMENT("9K"),
 				.DEBUGGABLE("NO"),
 				.PACKABLE("NO"),
-				.INIT_FILE("../../memory/rom.mif"),
+				.INIT_FILE("../memory/rom.mif"),
 				.FILL_ALL("NONE"))
 			inst(
 				.dia(dia),

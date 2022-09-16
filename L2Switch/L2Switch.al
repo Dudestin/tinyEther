@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2022-09-16 12:17:04</Project_Created_Time>
+    <TD_Version>4.4.433</TD_Version>
+    <UCode>10001111</UCode>
+    <Name>L2Switch</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File>rtl/MAC_SWITCH.v</File>
+            <File>rtl/TOP_L2_SWITCH.v</File>
+            <File>../common/rtl/bin2gray.v</File>
+            <File>../common/rtl/crc.v</File>
+            <File>../common/rtl/FRAME_FIFO.v</File>
+            <File>../common/rtl/gray2bin.v</File>
+            <File>../common/rtl/MAC_DEC.v</File>
+            <File>../common/rtl/MDIO.v</File>
+            <File>../common/rtl/mutex.v</File>
+            <File>../common/rtl/PACKET_FIFO.v</File>
+            <File>../common/rtl/RMII_RX.v</File>
+            <File>../common/rtl/RMII_TX.v</File>
+            <File>../common/rtl/RTL_SYNC_FIFO.v</File>
+            <File>../common/rtl/sync_2ff.v</File>
+            <File>../common/rtl/vec_sync_2ff.v</File>
+            <File>../common/al_ip/HEADER_FIFO.v</File>
+            <File>../common/al_ip/pll_clk100M.v</File>
+            <File>../common/al_ip/bram9k.v</File>
+            <File>../common/al_ip/bram32k.v</File>
+            <File>soc/rtl/picosoc.v</File>
+            <File>soc/al_ip/sram9k.v</File>
+            <File>soc/rtl/picorv32.v</File>
+            <File>soc/rtl/simpleuart.v</File>
+            <File>verilog-cam/rtl/cam.v</File>
+            <File>verilog-cam/rtl/cam_srl.v</File>
+        </Verilog>
+        <ADC_FILE/>
+        <SDC_FILE/>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL/>
+        <MODULE>TOP_L2_SWITCH</MODULE>
+        <CREATEINDEX>user</CREATEINDEX>
+    </TOP_MODULE>
+    <Project_Settings>
+        <Step_Last_Change>2022-09-16 12:34:04</Step_Last_Change>
+        <Current_Step>60</Current_Step>
+        <Step_Status>true</Step_Status>
+    </Project_Settings>
+</Project>
