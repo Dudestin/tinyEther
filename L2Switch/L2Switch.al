@@ -36,8 +36,8 @@
             <File>verilog-cam/rtl/cam.v</File>
             <File>verilog-cam/rtl/cam_srl.v</File>
         </Verilog>
-        <ADC_FILE/>
-        <SDC_FILE/>
+        <ADC_FILE>constraints/rmii_io.adc</ADC_FILE>
+        <SDC_FILE>constraints/rmii_timing.sdc</SDC_FILE>
         <CWC_FILE/>
     </Source_Files>
     <TOP_MODULE>
@@ -46,7 +46,7 @@
         <CREATEINDEX>user</CREATEINDEX>
     </TOP_MODULE>
     <Project_Settings>
-        <Step_Last_Change>2022-09-16 12:34:04</Step_Last_Change>
+        <Step_Last_Change>2022-09-16 12:47:33</Step_Last_Change>
         <Current_Step>60</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>

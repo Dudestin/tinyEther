@@ -1,5 +1,7 @@
 *.db
 *.area
+*.timing
+*.tsm
 *.bit
 *.bid
 *_tdmap.v
