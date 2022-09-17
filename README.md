@@ -5,11 +5,12 @@
 - Anlogic Tang Dynasty Ver. 4.4.433
 - riscv32-unknown-elf-gcc (g5964b5cd727) 11.1.0
 
-## tinyFastEtherDeveloper
-10cm四方の小型Ethernet実験ボード. 
-Tang PriMERと併せてご利用ください.  
-BOOTHにて頒布中です。
+## tinyFastEtherDeveloper 
+**BOOTHにて頒布中です**  
 https://booth.pm/ja/items/4174064
+
+10cm四方の小型Ethernet実験ボード. 
+Tang PriMERと併せてご利用ください. 
 
 ### 電源ユニット
 
@@ -24,6 +25,16 @@ DC5V, 最大2A出力可能のものをご利用ください。
 
 以下のリンクからデータシートを参照できます.  
 https://www.verical.com/datasheet/realtek-semiconductor-phy-rtl8201f-vb-cg-2635458.pdf
+
+#### MDIOバスに関する注意事項
+PHYアドレス0はブロードキャストアドレスとなっており、すべてのPHYチップが受信し処理します。  
+これによりすべてのPHYを対象に一度にレジスタに書き込むことができます。  
+一方でPHY0のレジスタのみ読みたい場合、すべてのPHYが応答してしまい正常に読み出すことができません。  
+PHY0のレジスタを読み出したい場合、次の手順を踏む必要があります。
+
+1. PHY1~3のリセット状態を保持する.
+2. PHY0のレジスタを読み込む.
+3. PHY1~3のリセット状態を解除する.
 
 ## 質問等
 不明点等ありましたら，お気軽にIssueをください。
