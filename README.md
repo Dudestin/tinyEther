@@ -7,7 +7,9 @@
 
 ## tinyFastEtherDeveloper
 10cm四方の小型Ethernet実験ボード. 
-Tang PriMERと併せてご利用ください.
+Tang PriMERと併せてご利用ください.  
+BOOTHにて頒布中です。
+https://booth.pm/ja/items/4174064
 
 ### 電源ユニット
 
