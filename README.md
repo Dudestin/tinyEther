@@ -5,11 +5,6 @@
 - Anlogic Tang Dynasty Ver. 4.4.433
 - riscv32-unknown-elf-gcc (g5964b5cd727) 11.1.0
 
-## 関連事項
-本実験ボードを用いたUDPによるネットワーク映像転送デモは下記のリポジトリにて公開中です.   
-なお, この実装には別のオープンソースのネットワークハードウェア実装を利用しています. ご了承ください.   
-https://github.com/Dudestin/udp_camera_streaming
-
 ## tinyFastEtherDeveloper 
 **BOOTHにて頒布中です**  
 https://booth.pm/ja/items/4174064
@@ -40,6 +35,11 @@ PHY0のレジスタを読み出したい場合、次の手順を踏む必要が�
 1. PHY1~3のリセット状態を保持する.
 2. PHY0のレジスタを読み込む.
 3. PHY1~3のリセット状態を解除する.
+
+## 関連事項
+本実験ボードを用いたUDPによるネットワーク映像転送デモは下記のリポジトリにて公開中です.   
+なお, この実装には別のオープンソースのネットワークハードウェア実装を利用しています. ご了承ください.   
+https://github.com/Dudestin/udp_camera_streaming
 
 ## 質問等
 不明点等ありましたら，お気軽にIssueをください。
