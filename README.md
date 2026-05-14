@@ -16,6 +16,10 @@ Companion project for the self-published technical book
 - [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
 - [iperf2 throughput & packet loss — all port combinations](https://drive.google.com/file/d/1KQZTA2UCOdThUug0L1bj7FfJSexok4mL/view?usp=drive_link)
 
+## Related
+- [UDP Video Streaming on FPGA](https://github.com/Dudestin/udp_camera_streaming) — 
+  Hardware UDP-IP video broadcaster built on top of this switch's network stack
+
 ## Book
 [技術書展13 — "FPGAによるネットワーク機器完全自作実践"](https://techbookfest.org/product/wtXcLvcejNaAz6GGbqiPuM)
 
