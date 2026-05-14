@@ -3,7 +3,7 @@
 
 ## Demo
 - [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
-- [iperf2 throughput & packet loss — all port combinations](https://youtu.be/XYwl4VXPEho)
+- [iperf2 throughput & packet loss — all port combinations](https://youtube.com/shorts/_nYmlqpG3-E?feature=share)
 
 ## 動作確認環境
 - Anlogic Tang Dynasty Ver. 4.4.433
