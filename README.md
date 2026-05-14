@@ -5,6 +5,10 @@ with RISC-V soft core for management and bare-metal firmware.
 Companion project for the self-published technical book 
 "Practical Implementation of Custom Network Hardware with FPGA" (300+ copies sold).
 
+## Demo Video (August 2022)
+- [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
+- [iperf2 throughput & packet loss — all port combinations](https://drive.google.com/file/d/1KQZTA2UCOdThUug0L1bj7FfJSexok4mL/view?usp=drive_link)
+
 ## Hardware
 ![tinyFastEtherDeveloper](pcb_working_photo.jpg)
 
@@ -14,10 +18,6 @@ Companion project for the self-published technical book
 - RISC-V soft core for runtime switch management
 - Bare-metal firmware for configuration & monitoring
 - Custom PCB kit (tinyFastEtherDeveloper)
-
-## Demo (August 2022)
-- [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
-- [iperf2 throughput & packet loss — all port combinations](https://drive.google.com/file/d/1KQZTA2UCOdThUug0L1bj7FfJSexok4mL/view?usp=drive_link)
 
 ## Related
 - [UDP Video Streaming on FPGA](https://github.com/Dudestin/udp_camera_streaming) — 
