@@ -5,6 +5,9 @@ with RISC-V soft core for management and bare-metal firmware.
 Companion project for the self-published technical book 
 "Practical Implementation of Custom Network Hardware with FPGA" (300+ copies sold).
 
+## Hardware
+![tinyFastEtherDeveloper](pcb_working_photo.jpg)
+
 ## Features
 - Packet routing with priority-based arbitration
 - FCS verification, MAC-layer processing
