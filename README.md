@@ -1,9 +1,28 @@
+# tinyEther — Pure-HDL Ethernet Switch on FPGA
+
+A 4-port Ethernet switch implemented entirely in SystemVerilog, 
+with RISC-V soft core for management and bare-metal firmware.
+Companion project for the self-published technical book 
+"Practical Implementation of Custom Network Hardware with FPGA" (300+ copies sold).
+
+## Features
+- Packet routing with priority-based arbitration
+- FCS verification, MAC-layer processing
+- RISC-V soft core for runtime switch management
+- Bare-metal firmware for configuration & monitoring
+- Custom PCB kit (tinyFastEtherDeveloper)
+
+## Demo (August 2022)
+- [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
+- [iperf2 throughput & packet loss — all port combinations](https://youtube.com/shorts/_nYmlqpG3-E)
+
+## Book
+[技術書展13 — "FPGAによるネットワーク機器完全自作実践"](https://techbookfest.org/product/wtXcLvcejNaAz6GGbqiPuM)
+
+---
+
 # tinyEther
 技術書展13(2022/9/10 ~ 9/25) にて頒布した『FPGAによるネットワーク機器完全自作実践』のサポートリポジトリです。
-
-## Demo (2022-08)
-- [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
-- [iperf2 throughput & packet loss — all port combinations](https://youtube.com/shorts/_nYmlqpG3-E?feature=share)
 
 ## 動作確認環境
 - Anlogic Tang Dynasty Ver. 4.4.433
