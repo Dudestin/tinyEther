@@ -14,7 +14,7 @@ Companion project for the self-published technical book
 
 ## Demo (August 2022)
 - [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
-- [iperf2 throughput & packet loss — all port combinations](https://youtube.com/shorts/_nYmlqpG3-E)
+- [iperf2 throughput & packet loss — all port combinations](https://drive.google.com/file/d/1KQZTA2UCOdThUug0L1bj7FfJSexok4mL/view?usp=drive_link)
 
 ## Book
 [技術書展13 — "FPGAによるネットワーク機器完全自作実践"](https://techbookfest.org/product/wtXcLvcejNaAz6GGbqiPuM)
