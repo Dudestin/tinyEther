@@ -1,7 +1,7 @@
 # tinyEther
 技術書展13(2022/9/10 ~ 9/25) にて頒布した『FPGAによるネットワーク機器完全自作実践』のサポートリポジトリです。
 
-## Demo
+## Demo (2022-08)
 - [Live switching demo — LED port activity](https://youtu.be/bNs3cAPYmRU)
 - [iperf2 throughput & packet loss — all port combinations](https://youtube.com/shorts/_nYmlqpG3-E?feature=share)
 
